@@ -4,6 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aurelia — Software Developer · Cloud &amp; Data Engineering</title>
+<meta name="description" content="Aurelia Mwangi — software developer in Nairobi building web applications and data platforms. AWS Certified Solutions Architect. Open to remote roles and client projects.">
+<link rel="canonical" href="https://sh3wins.github.io/aurelia_portfolio/">
+<meta name="theme-color" content="#0a0512">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sh3wins.github.io/aurelia_portfolio/">
+<meta property="og:title" content="Aurelia Mwangi — Software Developer">
+<meta property="og:description" content="Web applications and data platforms, built in Nairobi. AWS Certified Solutions Architect. Open to remote roles and client projects.">
+<meta property="og:image" content="https://sh3wins.github.io/aurelia_portfolio/assets/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aurelia Mwangi — Software Developer">
+<meta name="twitter:description" content="Web applications and data platforms, built in Nairobi. AWS Certified Solutions Architect.">
+<meta name="twitter:image" content="https://sh3wins.github.io/aurelia_portfolio/assets/og-cover.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -79,7 +93,7 @@
 
 
   /* ---- extra sections ---- */
-  .sections { position: relative; z-index: 1; width: 100%; max-width: none; margin: 0; padding: 5rem max(4vw, calc((100% - 1400px) / 2)) 2rem; background: linear-gradient(180deg, rgba(8,4,16,0), rgba(8,4,16,.78) 9rem); display: flex; flex-direction: column; gap: 5.5rem; }
+  .sections { position: relative; z-index: 1; width: 100%; max-width: none; margin: 0; padding: 5rem max(4vw, calc((100% - 1400px) / 2)) 2rem; background: linear-gradient(180deg, rgba(8,4,16,0), rgba(8,4,16,.92) 9rem); display: flex; flex-direction: column; gap: 5.5rem; }
   .block { scroll-margin-top: 1.5rem; }
   .eyebrow { margin: 0 0 .6rem; font-size: .68rem; letter-spacing: .26em; text-transform: uppercase; color: #d9b3ff; }
   h2.sec { margin: 0 0 1.5rem; font-family: "Playfair Display", Georgia, serif; font-weight: 600; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.15; }
@@ -94,7 +108,7 @@
   .about-grid { grid-template-columns: auto 1fr; align-items: center; gap: 2rem; }
   .about-text { display: flex; flex-direction: column; justify-content: center; gap: 1.2rem; }
   .portrait { position: relative; margin: 0; width: 17rem; aspect-ratio: 1; border-radius: 50%; overflow: hidden; border: 2px solid rgba(236,205,255,.7); box-shadow: 0 0 0 6px rgba(181,124,245,.18), 0 12px 50px rgba(150,80,230,.5); }
-  .portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 6%; }
+  .portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
   .portrait::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(110,60,200,.1), transparent 45%, rgba(30,10,60,.3)); }
   .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; align-content: start; }
   .fact b { display: block; font-family: "Playfair Display", Georgia, serif; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
@@ -121,7 +135,9 @@
 
   @media (max-width: 1100px) { .skills { grid-template-columns: repeat(2, 1fr); } #projects { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 760px) {
-    nav a:not(.cta) { display: none; }
+    header { flex-wrap: wrap; }
+    nav { width: 100%; order: 2; gap: .9rem; font-size: .8rem; flex-wrap: wrap; justify-content: flex-start; }
+    nav a.cta { margin-left: auto; padding: .45rem .9rem; }
     .about-grid, .cert-grid, .facts { grid-template-columns: 1fr; }
     .portrait { width: min(15rem, 68vw); justify-self: center; }
     .skills { grid-template-columns: 1fr 1fr; }
@@ -159,7 +175,7 @@
   <section id="projects" aria-label="Projects">
     <article class="card">
       <div class="media">
-        <video muted autoplay loop playsinline preload="auto" poster="./assets/atlas-poster.jpg"><source src="./assets/atlas-hands-loop.mp4" type="video/mp4"></video>
+        <video muted loop playsinline preload="none" poster="./assets/atlas-poster.jpg"><source src="./assets/atlas-hands-loop.mp4" type="video/mp4"></video>
         <button class="play" type="button" aria-label="Pause video">&#10074;&#10074;</button>
       </div>
       <div class="info"><h2>ATLAS</h2><p>Data Engineering Platform</p><div class="tags"><span>Python</span><span>AWS</span><span>Data</span></div></div>
@@ -169,7 +185,7 @@
 
     <article class="card">
       <div class="media">
-        <video muted autoplay loop playsinline preload="auto" poster="./assets/kartech-8s-poster.jpg"><source src="./assets/kartech-first-8s.mp4" type="video/mp4"></video>
+        <video muted loop playsinline preload="none" poster="./assets/kartech-8s-poster.jpg"><source src="./assets/kartech-first-8s.mp4" type="video/mp4"></video>
         <button class="play" type="button" aria-label="Pause video">&#10074;&#10074;</button>
       </div>
       <div class="info"><h2>KARTECH</h2><p>Workshop Operations System</p><div class="tags"><span>Automation</span><span>Database</span><span>Workflow</span></div></div>
@@ -186,7 +202,7 @@
 
     <article class="card">
       <div class="media">
-        <video muted autoplay loop playsinline preload="auto" poster="./assets/ataya-crystals-poster.jpg"><source src="./assets/ataya-crystals-loop.mp4" type="video/mp4"></video>
+        <video muted loop playsinline preload="none" poster="./assets/ataya-crystals-poster.jpg"><source src="./assets/ataya-crystals-loop.mp4" type="video/mp4"></video>
         <button class="play" type="button" aria-label="Pause video">&#10074;&#10074;</button>
       </div>
       <div class="info"><h2>ATAYA</h2><p>Interactive Visual Experience</p><div class="tags"><span>Creative Tech</span><span>Animation</span><span>UI</span></div></div>
@@ -264,17 +280,39 @@
 <footer class="foot">&copy; 2026 Aurelia Mwangi &middot; Nairobi, Kenya</footer>
 
 <script>
-  // Play/pause button on each video card (sits above the card link).
-  document.querySelectorAll('.play').forEach(function (btn) {
-    var v = btn.parentElement.querySelector('video');
-    btn.addEventListener('click', function (e) {
+  // Videos load and play only once their card scrolls into view, so the page
+  // does not pull ~3.5MB of MP4 on first paint.
+  var cards = document.querySelectorAll(".media video");
+  var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function setBtn(btn, playing) {
+    btn.innerHTML = playing ? "&#10074;&#10074;" : "&#9654;";
+    btn.setAttribute("aria-label", playing ? "Pause video" : "Play video");
+  }
+
+  document.querySelectorAll(".play").forEach(function (btn) {
+    var v = btn.parentElement.querySelector("video");
+    setBtn(btn, false);
+    btn.addEventListener("click", function (e) {
       e.preventDefault(); e.stopPropagation();
-      if (v.paused) { v.play(); btn.innerHTML = '&#10074;&#10074;'; btn.setAttribute('aria-label', 'Pause video'); }
-      else { v.pause(); btn.innerHTML = '&#9654;'; btn.setAttribute('aria-label', 'Play video'); }
+      if (v.paused) { v.dataset.manual = "play"; v.play(); } else { v.dataset.manual = "pause"; v.pause(); }
     });
+    v.addEventListener("play", function () { setBtn(btn, true); });
+    v.addEventListener("pause", function () { setBtn(btn, false); });
   });
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('video').forEach(function (v) { v.pause(); });
+
+  if (!reduced && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var v = entry.target;
+        if (entry.isIntersecting) {
+          if (v.dataset.manual !== "pause") { v.play().catch(function () {}); }
+        } else if (v.dataset.manual !== "play") {
+          v.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+    cards.forEach(function (v) { io.observe(v); });
   }
 </script>
 </body>
