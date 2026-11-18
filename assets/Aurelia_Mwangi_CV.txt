@@ -1,0 +1,40 @@
+AURELIA MWANGI
+JUNIOR SOFTWARE DEVELOPER | FULL-STACK & CLOUD
+Nairobi, Kenya • Open to international remote roles • aureliamwangi3080@gmail.com • github.com/sh3wins •
+sh3wins.github.io/aurelia_portfolio
+PROFESSIONAL PROFILE
+Junior software developer with experience delivering client-facing websites and developing database-backed business
+workflows. AWS Certified Solutions Architect – Associate (SAA-C03), with hands-on JavaScript, React, Next.js, Python, SQL
+and Supabase experience. Currently building Atlas, a Python-based data pipeline that transforms CSV datasets and uploads
+processed data to Amazon S3.
+TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Java, SQL, HTML, CSS
+Frontend: React, Next.js, Tailwind CSS, responsive UI development
+Backend & data: PostgreSQL, Supabase, pandas, data extraction and transformation
+Cloud & tools: AWS (S3), Boto3, Git, GitHub, VS Code
+EXPERIENCE
+Freelance Web & Software Developer | Client projects · 2026
+● Developed commercial and operational web applications, translating client requirements into responsive interfaces and
+data-backed workflows.
+● Developed RIO Furniture’s customer-facing website for product discovery and quotation requests, tailoring the
+experience to commercial buyers.
+● Developed components of Kartech Engineering’s workshop management system for order oversight, production
+tracking and operational reporting.
+English Language Tutor (ESL) | Private client, Nairobi · 2023 – Early 2026
+● Taught English one-to-one to a young learner over three years, from beginner level through sustained progress.
+● Adapted explanations and pacing to the learner’s actual comprehension rather than surface output, identifying where
+understanding broke down and reteaching accordingly.
+● Maintained a consistent weekly teaching schedule independently across three years.
+SELECTED TECHNICAL PROJECTS
+Atlas — Data Pipeline (In progress) | Python · pandas · Boto3 · Amazon S3
+● Extracts CSV datasets using Python, transforms raw data into structured outputs with pandas, and uploads results
+automatically to Amazon S3 using Boto3.
+Kartech Workshop Operations System | JavaScript · SQL · Supabase
+● Built an operations-oriented interface covering order visibility, production tasks and management dashboards;
+developed database-backed workflows for workshop administration.
+RIO Furniture Website | React · Next.js · Responsive web development
+● Built a commercial furniture website with a product catalogue and quote-request experience designed around the
+needs of schools, offices and hospitality buyers.
+CERTIFICATION & EDUCATION
+AWS Certified Solutions Architect – Associate (SAA-C03) | Amazon Web Services
+Software Development Diploma Program | Institute of Software Technology
